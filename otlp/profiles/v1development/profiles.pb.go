@@ -662,7 +662,7 @@ func (*Link) Descriptor() ([]byte, []int) {
 
 func (x *Link) GetTraceId() []byte {
 	if x != nil {
-		return x.TraceId
+		return x.TracingId
 	}
 	return nil
 }

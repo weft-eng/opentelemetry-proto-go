@@ -595,7 +595,7 @@ func (x *LogRecord) GetFlags() uint32 {
 
 func (x *LogRecord) GetTraceId() []byte {
 	if x != nil {
-		return x.TraceId
+		return x.TracingId
 	}
 	return nil
 }

@@ -593,7 +593,7 @@ func (*Span) Descriptor() ([]byte, []int) {
 
 func (x *Span) GetTraceId() []byte {
 	if x != nil {
-		return x.TraceId
+		return x.TracingId
 	}
 	return nil
 }
@@ -922,7 +922,7 @@ func (*Span_Link) Descriptor() ([]byte, []int) {
 
 func (x *Span_Link) GetTraceId() []byte {
 	if x != nil {
-		return x.TraceId
+		return x.TracingId
 	}
 	return nil
 }

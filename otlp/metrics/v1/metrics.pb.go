@@ -1786,7 +1786,7 @@ func (x *Exemplar) GetSpanId() []byte {
 
 func (x *Exemplar) GetTraceId() []byte {
 	if x != nil {
-		return x.TraceId
+		return x.TracingId
 	}
 	return nil
 }
